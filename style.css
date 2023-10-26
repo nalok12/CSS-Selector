@@ -1,0 +1,51 @@
+/* Task 1 */
+.header{
+    border: 2px solid black;
+}
+/*B one- Selectors to target the all anchor and change  text color */
+nav .ul a{
+    color: red;
+}
+/* B Two- change the first h2 text and bg color */
+nav > .h2first{
+    color: red;
+    background-color: aqua;
+}
+/* B Three- change first p the text color red */
+nav .p1first{
+    color:violet;
+}
+/* C One- change the text color attr "href" */
+a[href]{
+color: red;
+text-decoration: none;
+}
+/* c two */
+nav .ul a[ class="active" ]{
+    color: black;
+    text-decoration: underline;
+}
+/* c Three */
+nav a[target="_self"]{
+    background-color: aqua;
+}
+
+/* D One Pseudo selectors */
+
+nav p[ class="p3last"]::after{
+    content: '...';
+}
+/* D Two */
+nav li::marker{
+    color:aqua;
+}
+/* D three */
+nav p[class="p2second"]::first-letter{
+    color:red;
+    font-size: large;
+}
+
+
+
+
+

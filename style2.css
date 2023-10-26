@@ -1,0 +1,19 @@
+/* Task 2 */
+body{
+    border: 2px solid black;
+    
+}
+
+/* Remove the list style type and uderline */
+nav li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* list item inline */
+nav li{
+    display: inline;
+}
+/* margi between the menu list item */
+nav li{
+    margin: 15px;
+}
